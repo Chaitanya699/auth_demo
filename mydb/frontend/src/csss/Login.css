@@ -1,0 +1,79 @@
+/* Center the login container on the page */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  /* Style the login form */
+  .login-form {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Style the form title */
+  .login-form h2 {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  /* Style each form group */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Style the form labels */
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Style the form controls */
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style the primary button */
+  .btn-primary {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style the secondary button */
+  .btn-secondary {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #6c757d;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #5a6268;
+  }
+  
