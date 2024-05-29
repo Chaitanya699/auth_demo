@@ -3,6 +3,17 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const authRoutes = require('./routes/auth');
 
+const corsConfig = {
+  origin: "*",
+  Credential: true,
+  methods: ["GET","POST","PUT","DELETE"],
+};
+
+app.options("",cors(corsConfig));
+app.use(cors(corsConfig));
+
+
+
 const app = express();
 const PORT = process.env.PORT || 5000;
 
